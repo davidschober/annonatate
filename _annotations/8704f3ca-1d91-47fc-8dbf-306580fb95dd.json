@@ -1,0 +1,35 @@
+---
+canvas: "https://api.dc.library.northwestern.edu/api/v2/works/04c4b7f4-8404-40c1-a43f-808f7eda28ee?as=iiif/canvas/access/0"
+order: 1
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "This is a drummer",
+            "purpose": "commenting",
+            "creator": {
+                "id": "davidschober",
+                "name": "davidschober"
+            },
+            "created": "2023-05-02T21:18:58.763Z",
+            "modified": "2023-05-02T21:19:04.940Z"
+        }
+    ],
+    "target": {
+        "source": "https://api.dc.library.northwestern.edu/api/v2/works/04c4b7f4-8404-40c1-a43f-808f7eda28ee?as=iiif/canvas/access/0",
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=1047.3433837890625,540.6083374023438,280.700439453125,358.67279052734375"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://api.dc.library.northwestern.edu/api/v2/works/04c4b7f4-8404-40c1-a43f-808f7eda28ee?as=iiif",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "8704f3ca-1d91-47fc-8dbf-306580fb95dd.json",
+    "motivation": "commenting"
+}

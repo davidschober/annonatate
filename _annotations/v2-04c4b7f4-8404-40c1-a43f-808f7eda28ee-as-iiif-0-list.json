@@ -1,0 +1,9 @@
+---
+canvas_id: "https://api.dc.library.northwestern.edu/api/v2/works/04c4b7f4-8404-40c1-a43f-808f7eda28ee?as=iiif/canvas/access/0"
+---
+{% assign annotations = site.annotations | where: "canvas", page.canvas_id | sort: "order" | map: "content" %}
+{
+"@context": "http://iiif.io/api/presentation/3/context.json",
+"id": "{{ site.url }}{{ site.baseurl }}{{page.url}}",
+"type": "AnnotationPage",
+"items": [{{ annotations | join: ","}}] }

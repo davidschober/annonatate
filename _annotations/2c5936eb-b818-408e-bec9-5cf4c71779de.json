@@ -1,0 +1,34 @@
+---
+canvas: "https://api.dc.library.northwestern.edu/api/v2/works/04c4b7f4-8404-40c1-a43f-808f7eda28ee?as=iiif/canvas/access/0"
+order: 2
+---
+{
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "And a sax player",
+            "purpose": "commenting",
+            "creator": {
+                "id": "davidschober",
+                "name": "davidschober"
+            },
+            "created": "2023-05-02T21:19:12.596Z",
+            "modified": "2023-05-02T21:19:16.697Z"
+        }
+    ],
+    "target": {
+        "source": "https://api.dc.library.northwestern.edu/api/v2/works/04c4b7f4-8404-40c1-a43f-808f7eda28ee?as=iiif/canvas/access/0",
+        "selector": {
+            "type": "SvgSelector",
+            "value": "<svg><circle cx=\"201.99312210083008\" cy=\"415.85255432128906\" r=\"138.86536721184066\"></circle></svg>"
+        },
+        "dcterms:isPartOf": {
+            "id": "https://api.dc.library.northwestern.edu/api/v2/works/04c4b7f4-8404-40c1-a43f-808f7eda28ee?as=iiif",
+            "type": "Manifest"
+        }
+    },
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "id": "2c5936eb-b818-408e-bec9-5cf4c71779de.json",
+    "motivation": "commenting"
+}
